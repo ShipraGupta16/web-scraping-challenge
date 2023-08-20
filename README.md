@@ -4,7 +4,7 @@ This challenge is about full web-scraping and data analysis from Mars Weather Da
 
 Deliverable 1: Scrape titles and preview text from Mars news articles.
 
-Deliverable 2: Scrape and analyze Mars weather data, and cleans, visualizes and analyzes the data which exists in a table.
+Deliverable 2: Scrape and analyze Mars weather data, and clean, visualize and analyze the data which exists in a table.
 
 These are the step-by-step desciptions on the written code:
 
