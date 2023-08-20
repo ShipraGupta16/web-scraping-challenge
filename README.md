@@ -25,7 +25,7 @@ e) Stored all the dictionaries in a Python list.
 
 f) Printed the list in the notebook.
 
-g) Stored the scraped data in a file. Export the scraped data to a JSON file.
+g) Stored the scraped data in a file. Exported the scraped data to a mars_article.json file.
 
 ### 2: Scrape and Analyze Mars Weather Data
 
@@ -59,5 +59,5 @@ e) Analyzed the dataset by using Pandas functions to answer the following questi
 	- Consider how many days elapse on Earth in the time that Mars circles the Sun once.
 	- Visually estimate the result by plotting the daily minimum temperature.
 
-f) Exported the DataFrame to a CSV file.
+f) Exported the DataFrame to a mars_weather.csv file.
 
