@@ -1,39 +1,39 @@
 # web-scraping-challenge
 
-This challenge is about full web-scraping and data analysis. It consists of two technical products. Following are the deliverables:
+This challenge is about full web-scraping and data analysis from Mars Weather Data. It consists of two technical products. Following are the deliverables:
 
 Deliverable 1: Scrape titles and preview text from Mars news articles.
 
-Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
+Deliverable 2: Scrape and analyze Mars weather data, and cleans, visualizes and analyzes the data which exists in a table.
 
 These are the step-by-step desciptions on the written code:
 
 ### 1: Scrape Titles and Preview Text from Mars News
 
-a) Use automated browsing to visit the Mars news siteLinks to an external site. Inspect the page to identify which elements to scrape.
+a) Used automated browsing to visit the Mars news siteLinks to an external site. Inspected the page to identify which elements to scrape.
 
-b) Create a Beautiful Soup object and use it to extract text elements from the website.
+b) Created a Beautiful Soup object and used it to extract text elements from the website.
 
-c) Extract the titles and preview text of the news articles that you scraped. Store the scraping results in Python data structures as follows:
+c) Extracted the titles and preview text of the news articles that was scraped. Stored the scraping results in Python data structures as follows:
 
-d) Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
+d) Stored each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
 
 `{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
  'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}`
 
-e) Store all the dictionaries in a Python list.
+e) Stored all the dictionaries in a Python list.
 
-f) Print the list in your notebook.
+f) Printed the list in the notebook.
 
-g) Optionally, store the scraped data in a file. Export the scraped data to a JSON file.
+g) Stored the scraped data in a file. Export the scraped data to a JSON file.
 
 ### 2: Scrape and Analyze Mars Weather Data
 
-a) Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspect the page to identify which elements to scrape. The URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html.
+a) Used automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspected the page to identify which elements to scrape. The URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html.
 
-b) Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
+b) Created a Beautiful Soup object and used it to scrape the data in the HTML table. (Note that this can also be achieved by using the Pandas read_html function.) Beautiful Soup was used here to continue sharpening web scraping skills.
 
-c) Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
+c) Assembled the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
 `id`: the identification number of a single transmission from the Curiosity rover <br>
 `terrestrial_date`: the date on Earth <br>
@@ -43,9 +43,9 @@ c) Assemble the scraped data into a Pandas DataFrame. The columns should have th
 `min_temp`: the minimum temperature, in Celsius, of a single Martian day (sol) <br>
 `pressure`: The atmospheric pressure at Curiosity's location <br>
 
-d) Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
+d) Examined the data types that are currently associated with each column. Converted the data to the appropriate datetime, int, or float data types as needed.
 
-e) Analyze your dataset by using Pandas functions to answer the following questions:
+e) Analyzed the dataset by using Pandas functions to answer the following questions:
 
 	- How many months exist on Mars?
 	- How many Martian (and not Earth) days worth of data exist in the scraped dataset?
@@ -59,5 +59,5 @@ e) Analyze your dataset by using Pandas functions to answer the following questi
 	- Consider how many days elapse on Earth in the time that Mars circles the Sun once.
 	- Visually estimate the result by plotting the daily minimum temperature.
 
-f) Export the DataFrame to a CSV file.
+f) Exported the DataFrame to a CSV file.
 
